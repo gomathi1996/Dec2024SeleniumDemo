@@ -12,6 +12,10 @@ public class ThisDemo {
 	public static void main(String[] args) {
 		ThisDemo td = new ThisDemo();
 		td.getData();
+		int x = 21;
+		System.out.println(x);
+		System.out.println(td.a);
+
 	}
 
 }
