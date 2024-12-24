@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T21:37:46 IST" name="Default suite" finished-at="2024-12-24T21:38:12 IST" duration-ms="25689">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T21:37:46 IST" name="Default test" finished-at="2024-12-24T21:38:12 IST" duration-ms="25689">
+      <class name="seleniumConcepts.LocatorsDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:37:46 IST" name="setUp" finished-at="2024-12-24T21:37:52 IST" duration-ms="5714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="incorrectLogIn()[pri:0, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:37:52 IST" name="incorrectLogIn" finished-at="2024-12-24T21:37:53 IST" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:37:53 IST" name="tearDown" finished-at="2024-12-24T21:37:55 IST" duration-ms="2245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:37:55 IST" name="setUp" finished-at="2024-12-24T21:38:00 IST" duration-ms="4588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resetPassword()[pri:1, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:38:00 IST" name="resetPassword" finished-at="2024-12-24T21:38:01 IST" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:38:01 IST" name="tearDown" finished-at="2024-12-24T21:38:03 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:38:03 IST" name="setUp" finished-at="2024-12-24T21:38:08 IST" duration-ms="4792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="correctLogin()[pri:2, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:38:08 IST" name="correctLogin" finished-at="2024-12-24T21:38:09 IST" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumConcepts.LocatorsDemo@2d7275fc]" started-at="2024-12-24T21:38:09 IST" name="tearDown" finished-at="2024-12-24T21:38:12 IST" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumConcepts.LocatorsDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
