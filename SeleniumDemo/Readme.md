@@ -8,3 +8,11 @@ https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 Locator Practice:
 https://rahulshettyacademy.com/locatorspractice/
+
+https://rahulshettyacademy.com/AutomationPractice/
+
+Dropdown Practice
+https://rahulshettyacademy.com/dropdownsPractise/
+
+Selenium Practise
+https://rahulshettyacademy.com/seleniumPractise/#/

@@ -4,7 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,7 +18,8 @@ public class LocatorsDemo {
 	
 	@BeforeMethod
 	public void setUp() {
-		driver = new EdgeDriver();
+//		driver = new EdgeDriver();
+		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); 
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
@@ -45,7 +46,12 @@ public class LocatorsDemo {
 		Thread.sleep(1000);
 		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
 		String tempPassword = driver.findElement(By.cssSelector(".infoMsg")).getText();
+		System.out.println(tempPassword);
+		System.out.println("**************");
 		String[] splitted = tempPassword.split("'");
+		for(String s: splitted) {
+			System.out.println(s);
+		}
 		resetPwd = splitted[1];
 	}
 	
@@ -61,7 +67,11 @@ public class LocatorsDemo {
 		String loginMesg = driver.findElement(By.cssSelector(".login-container>p")).getText();
 		Assert.assertTrue(welcomeMesg.contains(userName), "Not LoggedIn with username : "+userName);
 		Assert.assertEquals(loginMesg, "You are successfully logged in.");
-	}
+//		driver.findElement(By.xpath("//button[text()='Log Out']")).click();
+		driver.findElement(By.xpath("//*[text()='Log Out']")).click();
+		boolean signIn = driver.findElement(By.xpath("//*[text()='Sign In']")).isDisplayed();
+		Assert.assertTrue(signIn, "Log Out is not Successful");
+		}
 	
 	@AfterMethod
 	public void tearDown() {
